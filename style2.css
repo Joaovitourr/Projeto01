@@ -1,0 +1,231 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ background-image: url(../Imagens/7546018-black-linear-decorative-background-gold-diagonal-lines-texture-luxury-layered-wallpaper-for-card-web-app-vetor.jpg);
+ background-size: cover;
+ font-family: sans-serif;
+ color: white;
+
+
+    
+} 
+
+.header-topo{
+    align-items: center;
+        display: flex;
+  justify-content: space-between;
+ word-wrap: wrap;
+ background-image: -moz-linear-gradient(1deg, #00b3b3, #00b3b3);
+ height: 60px;
+
+
+}   nav {
+
+}
+ nav ul{
+    list-style-type: none;
+    
+       
+} nav li{
+display: inline;
+margin: 20px;
+
+
+
+
+
+} nav a{
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 19px;
+    color: black;
+    
+
+    
+
+ 
+
+} nav a:hover{
+  transition: ease-in-out 0.5s;
+  color: white;
+ 
+
+}
+
+.logo{
+    font-size: 25px;
+    margin-left: 2%;
+    color: white;
+    user-select: none;
+} nav a:hover{
+    border-bottom: 1px solid white;
+} .container{
+
+  display:flex;
+  justify-content: space-between;
+
+    
+ 
+
+} .heading-1{
+    text-align: center;
+    color: white;
+    display: block;
+    
+} 
+.cards{
+    margin: 25px;
+        padding: 5px;
+        border-radius: 15px;
+
+} .icons i{
+    font-size: 200px;
+  
+} .card-body{
+text-align: center;
+ 
+} .card-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  } .card-footer button{
+    width: 120px;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: hidden;
+    font-size: 20px;
+    border: 15px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  } .card-footer button:hover{
+    background-color: white;
+    transition: ease-in-out 0.6s;
+    color: black;
+
+  } .platinium{
+    color: #ccc;
+    margin: 30px; 
+    
+  } .h2-gray{
+    color: white;
+    margin: 0 auto;
+    letter-spacing: 1px;
+   
+  } .heading-2{
+    margin-top: 25px;
+    font-size: 20px;
+    padding: 2px;
+   
+    
+  } .platinum-card p{
+    margin-top:25px;
+    font-size: 25px;
+
+  }
+   .h2-gold{
+    color: white;
+  } .gold{
+    color: orange;
+    margin-left: 85px;
+  } .cartao-g{
+   text-align: center;
+   font-size: 20px;
+   letter-spacing: 1px;
+
+  }
+
+  .h3-gold{
+    font-size: 20px;
+    text-align: center;
+    margin-left: 30px;
+
+    
+  } .h3-gold p{
+margin-top: 40px;
+  }  
+  .black-topo{
+color: red;
+padding: 2px;
+text-align: center;
+font-size: 20px;
+letter-spacing: 1px;
+
+
+    
+  } .black{
+    color: black;
+    margin-left: 25px;
+    
+   
+  } .h2-black{
+    text-align: center;
+  }
+  
+  .h2-black h3{
+    margin-top: 25px;
+    font-size: 20px;
+   font-size: 25px;
+   
+  } 
+  
+  .h2-black p{
+    font-size: 25px;;
+  }
+  
+      
+  .endereco{
+    text-align: center;
+  } .endereco p{
+    font-size: 20px;
+    font-family: Helvetica;
+    color: white;
+  }
+  iframe{
+    width: 20%;
+    height: 180px;
+  } marquee{
+    color: white;
+    text-align: center;
+    font-size: 15px;
+
+
+  } marquee p{
+    font-size: 26px;
+    color: white;
+    
+  } 
+  
+  footer{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+  } .h2-gray::selection{
+
+  color: #ccc;
+  } .redes{
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    
+  } .redes a{
+    margin: 1.5%;
+  } .instagram{
+    color: purple;
+  } 
+  .whatsapp{
+    color: green;
+  } @media (max-width: 480px) 
+  { }
+    .container{
+        
+        flex-wrap: wrap;
+        
+        
+    } .h2-description{
+        text-align: center;
+    } 
